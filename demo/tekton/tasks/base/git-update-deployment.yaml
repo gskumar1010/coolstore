@@ -70,8 +70,8 @@ spec:
       
       cd git-update-digest-workdir
 
-      git config user.email "tektonbot@redhat.com"
-      git config user.name "My Tekton Bot"
+      git config user.email "sgurijal@redhat.com"
+      git config user.name "Santosh"
 
       git status
       git add $(params.KUSTOMIZATION_PATH)/kustomization.yaml
