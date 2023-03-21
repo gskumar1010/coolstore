@@ -39,7 +39,7 @@ spec:
 
       echo "Cloning $(params.GIT_REPOSITORY) $(params.GIT_REF)"
 
-      git clone -v $(params.GIT_REPOSITORY) -b $(params.GIT_REF) git-update-digest-workdir
+      git clone git@github.com:gskumar1010/coolstore.git git-update-digest-workdir
 
       if [ "$(params.CREATE_BRANCH_NAME)" = "skip" ]
       then
